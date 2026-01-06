@@ -6,7 +6,7 @@ This is a **React + Vite + Tailwind CSS (with DaisyUI)** project that demonstrat
 
 ---
 ## 🌟 Live Website
-**[Visit SparkDecore Live →](https://sentery-link.netlify.app/)**
+**[Visit SenetryLink Live →](https://sentery-link.netlify.app/)**
 
 ## 🚀 **Features**
 
