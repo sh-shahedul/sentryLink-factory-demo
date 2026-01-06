@@ -1,6 +1,5 @@
 
 
-
 [
   {
     "id": 1,
@@ -9,9 +8,27 @@
     "status": "Active",
     "expiry": "2026-03-15",
     "versions": [
-      { "date": "2025-10-01", "uploader": "Alice", "notes": "Initial manual upload", "size": "2 MB" },
-      { "date": "2025-11-05", "uploader": "Bob", "notes": "Added safety tips", "size": "2.1 MB" },
-      { "date": "2025-12-01", "uploader": "Alice", "notes": "Minor corrections", "size": "2.1 MB" }
+      { 
+        "date": "2025-10-01", 
+        "uploader": "Alice", 
+        "notes": "Initial manual upload", 
+        "size": "2 MB",
+        "expiry": "2026-03-15"
+      },
+      { 
+        "date": "2025-11-05", 
+        "uploader": "Bob", 
+        "notes": "Added safety tips", 
+        "size": "2.1 MB",
+        "expiry": "2026-03-15"
+      },
+      { 
+        "date": "2025-12-01", 
+        "uploader": "Alice", 
+        "notes": "Minor corrections", 
+        "size": "2.1 MB",
+        "expiry": "2026-03-15"
+      }
     ],
     "lastUpdated": "2025-12-20"
   },
@@ -22,8 +39,20 @@
     "status": "Expiring Soon",
     "expiry": "2026-01-20",
     "versions": [
-      { "date": "2025-09-01", "uploader": "Charlie", "notes": "Initial Q1 report", "size": "1.5 MB" },
-      { "date": "2025-11-10", "uploader": "Dana", "notes": "Added audit summary", "size": "1.6 MB" }
+      { 
+        "date": "2025-09-01", 
+        "uploader": "Charlie", 
+        "notes": "Initial Q1 report", 
+        "size": "1.5 MB",
+        "expiry": "2026-01-20"
+      },
+      { 
+        "date": "2025-11-10", 
+        "uploader": "Dana", 
+        "notes": "Added audit summary", 
+        "size": "1.6 MB",
+        "expiry": "2026-01-20"
+      }
     ],
     "lastUpdated": "2025-11-10"
   },
@@ -34,11 +63,41 @@
     "status": "Expired",
     "expiry": "2025-12-01",
     "versions": [
-      { "date": "2025-07-15", "uploader": "Eve", "notes": "Initial training record", "size": "1 MB" },
-      { "date": "2025-08-20", "uploader": "Frank", "notes": "Added new employee training", "size": "1.1 MB" },
-      { "date": "2025-09-30", "uploader": "Eve", "notes": "Correction in dates", "size": "1.1 MB" },
-      { "date": "2025-10-20", "uploader": "Frank", "notes": "Additional notes", "size": "1.2 MB" },
-      { "date": "2025-10-05", "uploader": "Eve", "notes": "Final update", "size": "1.2 MB" }
+      { 
+        "date": "2025-07-15", 
+        "uploader": "Eve", 
+        "notes": "Initial training record", 
+        "size": "1 MB",
+        "expiry": "2025-12-01"
+      },
+      { 
+        "date": "2025-08-20", 
+        "uploader": "Frank", 
+        "notes": "Added new employee training", 
+        "size": "1.1 MB",
+        "expiry": "2025-12-01"
+      },
+      { 
+        "date": "2025-09-30", 
+        "uploader": "Eve", 
+        "notes": "Correction in dates", 
+        "size": "1.1 MB",
+        "expiry": "2025-12-01"
+      },
+      { 
+        "date": "2025-10-20", 
+        "uploader": "Frank", 
+        "notes": "Additional notes", 
+        "size": "1.2 MB",
+        "expiry": "2025-12-01"
+      },
+      { 
+        "date": "2025-10-05", 
+        "uploader": "Eve", 
+        "notes": "Final update", 
+        "size": "1.2 MB",
+        "expiry": "2025-12-01"
+      }
     ],
     "lastUpdated": "2025-10-05"
   },
@@ -49,10 +108,34 @@
     "status": "Active",
     "expiry": "2026-06-30",
     "versions": [
-      { "date": "2025-06-01", "uploader": "George", "notes": "Initial log entry", "size": "1 MB" },
-      { "date": "2025-08-01", "uploader": "Hannah", "notes": "Routine check", "size": "1.1 MB" },
-      { "date": "2025-10-01", "uploader": "George", "notes": "Replaced broken parts", "size": "1.2 MB" },
-      { "date": "2025-12-01", "uploader": "Hannah", "notes": "Final inspection", "size": "1.3 MB" }
+      { 
+        "date": "2025-06-01", 
+        "uploader": "George", 
+        "notes": "Initial log entry", 
+        "size": "1 MB",
+        "expiry": "2026-06-30"
+      },
+      { 
+        "date": "2025-08-01", 
+        "uploader": "Hannah", 
+        "notes": "Routine check", 
+        "size": "1.1 MB",
+        "expiry": "2026-06-30"
+      },
+      { 
+        "date": "2025-10-01", 
+        "uploader": "George", 
+        "notes": "Replaced broken parts", 
+        "size": "1.2 MB",
+        "expiry": "2026-06-30"
+      },
+      { 
+        "date": "2025-12-01", 
+        "uploader": "Hannah", 
+        "notes": "Final inspection", 
+        "size": "1.3 MB",
+        "expiry": "2026-06-30"
+      }
     ],
     "lastUpdated": "2025-12-01"
   },
@@ -63,7 +146,13 @@
     "status": "Active",
     "expiry": "2026-05-10",
     "versions": [
-      { "date": "2025-12-18", "uploader": "Ian", "notes": "Initial checklist upload", "size": "0.5 MB" }
+      { 
+        "date": "2025-12-18", 
+        "uploader": "Ian", 
+        "notes": "Initial checklist upload", 
+        "size": "0.5 MB",
+        "expiry": "2026-05-10"
+      }
     ],
     "lastUpdated": "2025-12-18"
   },
@@ -74,8 +163,20 @@
     "status": "Expiring Soon",
     "expiry": "2026-01-12",
     "versions": [
-      { "date": "2025-11-01", "uploader": "John Doe", "notes": "Initial upload", "size": "1.2 MB" },
-      { "date": "2025-11-22", "uploader": "Jane Smith", "notes": "Updated contract clauses", "size": "1.3 MB" }
+      { 
+        "date": "2025-11-01", 
+        "uploader": "John Doe", 
+        "notes": "Initial upload", 
+        "size": "1.2 MB",
+        "expiry": "2026-01-12"
+      },
+      { 
+        "date": "2025-11-22", 
+        "uploader": "Jane Smith", 
+        "notes": "Updated contract clauses", 
+        "size": "1.3 MB",
+        "expiry": "2026-01-12"
+      }
     ],
     "lastUpdated": "2025-11-22"
   }

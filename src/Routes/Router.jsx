@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import RootlayOut from "../Layout/RootlayOut";
 import Home from "../Pages/Home/Home";
 import EvidenceDetail from "../Pages/Evidence/EvidenceDetail";
+import BuyerRequest from "../Pages/BuyerRequest/BuyerRequests";
 
 
 
@@ -19,6 +20,11 @@ import EvidenceDetail from "../Pages/Evidence/EvidenceDetail";
         path: "evidence/:id",
         element: <EvidenceDetail></EvidenceDetail>,
         loader: () => fetch("/docData.json").then(res => res.json()),
+      },
+        {
+        path: "request",
+        element:<BuyerRequest></BuyerRequest>,
+        // loader: () => fetch("/docData.json").then(res => res.json()),
       },
     ]
   },
