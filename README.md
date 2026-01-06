@@ -1,16 +1,68 @@
-# React + Vite
+# **Senetry Link – Evidence Vault UI (Phase A)**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Project Overview**
 
-Currently, two official plugins are available:
+This is a **React + Vite + Tailwind CSS (with DaisyUI)** project that demonstrates the **SentryLink Comply Phase A** UI for a factory user. The interface simulates managing evidence documents and fulfilling buyer requests without a backend — all data is mocked locally.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 **Features**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Home / Evidence Vault screen with a table, filters, and search  
+- Evidence Detail screen showing versions and upload modal  
+- Buyer Requests screen with fulfill action    
+- Routing with React Router  
+- Styled with Tailwind CSS + DaisyUI  
+- Mocked local data (no backend/server required)
 
-## Expanding the ESLint configuration
+---
+```
+## 📁 **Project Structure**
+SENTRY-LINK/
+├─ public/
+│  ├─ docData.json         
+│  ├─ senetrylogo.png       
+│  └─ _redirects            
+├─ src/
+│  ├─ assets/               
+│  │   ├─ react.svg
+│  │   └─ senetrylogo.png
+│  ├─ Component/Shared     
+│  │   ├─ Header.jsx
+│  │   └─ Footer.jsx
+│  ├─ Layout/
+│  │   └─ RootLayOut.jsx
+│  ├─ Pages/
+│  │   ├─ Home/
+│  │   │   └─ Home.jsx
+│  │   ├─ Evidence/
+│  │   │   └─ EvidenceDetail.jsx
+│  │   └─ BuyerRequest/
+│  │       └─ BuyerRequests.jsx
+│  ├─ Routes/
+│  │   └─ Router.jsx
+│  ├─ App.css
+│  ├─ index.css
+│  └─ main.jsx
+├─ package.json
+├─ vite.config.js
+├─ README.md
+└─ .gitignore
+```
+### Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+```bash
+git clone https://github.com/sh-shahedul/sentryLink-factory-demo.git
+cd sentry-Link
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Run the project locally**
+   ```bash
+npm run dev
+```
