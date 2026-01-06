@@ -66,7 +66,7 @@ npm install
 ```
 
 3. **Run the project locally**
-   ```bash
+```bash
 npm run dev
 ```
 
