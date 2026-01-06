@@ -5,6 +5,8 @@
 This is a **React + Vite + Tailwind CSS (with DaisyUI)** project that demonstrates the **SentryLink Comply Phase A** UI for a factory user. The interface simulates managing evidence documents and fulfilling buyer requests without a backend — all data is mocked locally.
 
 ---
+## 🌟 Live Website
+**[Visit SparkDecore Live →](https://sentery-link.netlify.app/)**
 
 ## 🚀 **Features**
 
@@ -17,6 +19,7 @@ This is a **React + Vite + Tailwind CSS (with DaisyUI)** project that demonstrat
 
 ---
 ```
+
 ## 📁 **Project Structure**
 SENTRY-LINK/
 ├─ public/
@@ -66,3 +69,5 @@ npm install
    ```bash
 npm run dev
 ```
+
+
